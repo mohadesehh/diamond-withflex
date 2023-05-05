@@ -1,0 +1,101 @@
+body{
+    background-image: url(../image/Dimond-wallpapers-HD.jpg);
+    background-size: cover;
+    height: 200px;
+}
+.logo{
+    width: 200px;
+    display: block;
+}
+
+.header-container{
+    background-color: black;
+    height: 200px;
+    display: flex;
+    direction: rtl;
+}
+
+ul{
+    direction: ltr;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    position: absolute;
+    top: 120px;
+    left: 250px;
+    
+}
+li{
+    
+    font-size: 22px;
+    color: whitesmoke;
+    padding: 30px; 
+}
+.search-container{
+    display: flex;
+   
+}
+
+input[type=search]{
+    margin-left: 20px;
+    margin-top: -80px;
+    height: 35px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.icon{
+    font-size: 1.5vw;
+    margin-left: 980px;
+    margin-top: -75px;    
+}
+
+.icon>a{
+    color: whitesmoke;
+    margin: 10px;
+}
+
+.icon-box{
+    display: none;
+}
+
+/* ------------------------------------------------------------------------------------- */
+@media screen and (max-width: 1331px){
+  .icon>a{
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 906px) {
+ 
+    li{
+        display: none; 
+    }
+    .search-container{
+        display: none;
+    }
+    .icon-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .search-icon{
+        color: whitesmoke;
+        font-size: 35px;
+        margin-left: 20px;
+        margin-top: -48px;
+    }
+    .menu-icon{
+        color: whitesmoke;
+        font-size: 35px;
+        margin-left: 25px;
+        padding-top: 20px;
+    }
+
+}
